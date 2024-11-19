@@ -1,0 +1,11 @@
+10
+5
+8
+1
+4
+9
+6
+3
+FirstQ: 3
+Median: 5
+SecondQ: 9
