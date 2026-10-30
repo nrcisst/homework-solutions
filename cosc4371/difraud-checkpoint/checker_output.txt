@@ -1,0 +1,123 @@
+split.csv: 89045 rows. scores.csv: 7000 rows.
+
+Rows per dataset and split
+--------------------------
+dataset      split  rows  positive  negative  positive %
+DIFrauD      train 76040     29415     46625       38.68
+DIFrauD validation  9505      3677      5828       38.68
+DIFrauD       test  3500      1267      2233       36.20
+
+Metrics per test set (threshold 0.6690056619289263; positive when score >= threshold)
+-------------------------------------------------------------------------------------
+Each value is followed by its 95% bootstrap interval in brackets.
+
+Test set: English_fake_news
+  test rows                 500
+  positive rows             216 (43.20%)
+  negative rows             284 (56.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.4320 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9943 [0.9810, 1.0000]
+  recall                    0.8102 [0.7524, 0.8657]
+  false-positive rate       0.0035 [0.0000, 0.0110]
+  AP                        0.9916 [0.9855, 0.9964]
+  AUROC                     0.9932 [0.9887, 0.9971]
+
+Test set: English_job_scams
+  test rows                 500
+  positive rows             21 (4.20%)
+  negative rows             479 (95.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.0420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 1.0000 [1.0000, 1.0000]
+  recall                    0.0476 [0.0000, 0.1579]
+  false-positive rate       0.0000 [0.0000, 0.0000]
+  AP                        0.3990 [0.2347, 0.6015]
+  AUROC                     0.8687 [0.7746, 0.9425]
+
+Test set: English_phishing
+  test rows                 500
+  positive rows             194 (38.80%)
+  negative rows             306 (61.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9945 [0.9808, 1.0000]
+  recall                    0.9278 [0.8900, 0.9637]
+  false-positive rate       0.0033 [0.0000, 0.0104]
+  AP                        0.9967 [0.9936, 0.9992]
+  AUROC                     0.9977 [0.9955, 0.9995]
+
+Test set: English_political_statements
+  test rows                 500
+  positive rows             321 (64.20%)
+  negative rows             179 (35.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.6420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.7360 [0.6704, 0.7967]
+  recall                    0.4081 [0.3539, 0.4623]
+  false-positive rate       0.2626 [0.2037, 0.3255]
+  AP                        0.7323 [0.6762, 0.7859]
+  AUROC                     0.6087 [0.5591, 0.6583]
+
+Test set: English_product_reviews
+  test rows                 500
+  positive rows             250 (50.00%)
+  negative rows             250 (50.00%)
+  bootstrap resamples       1000
+  random-scorer AP          0.5000 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.7583 [0.6837, 0.8304]
+  recall                    0.3640 [0.3077, 0.4254]
+  false-positive rate       0.1160 [0.0785, 0.1548]
+  AP                        0.7071 [0.6454, 0.7733]
+  AUROC                     0.7203 [0.6742, 0.7657]
+
+Test set: English_sms
+  test rows                 500
+  positive rows             94 (18.80%)
+  negative rows             406 (81.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.1880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9375 [0.8777, 0.9875]
+  recall                    0.7979 [0.7158, 0.8778]
+  false-positive rate       0.0123 [0.0025, 0.0249]
+  AP                        0.9059 [0.8564, 0.9469]
+  AUROC                     0.9621 [0.9420, 0.9798]
+
+Test set: English_twitter_rumours
+  test rows                 500
+  positive rows             171 (34.20%)
+  negative rows             329 (65.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.8854 [0.8200, 0.9463]
+  recall                    0.4971 [0.4285, 0.5679]
+  false-positive rate       0.0334 [0.0151, 0.0530]
+  AP                        0.8369 [0.7852, 0.8842]
+  AUROC                     0.8962 [0.8665, 0.9251]
+
+Test set: English_pooled
+  test rows                 3500
+  positive rows             1267 (36.20%)
+  negative rows             2233 (63.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3620 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.8870 [0.8653, 0.9079]
+  recall                    0.5825 [0.5573, 0.6110]
+  false-positive rate       0.0421 [0.0346, 0.0508]
+  AP                        0.8787 [0.8649, 0.8932]
+  AUROC                     0.9249 [0.9169, 0.9330]
+
+Warnings
+--------
+- English_fake_news: precision, AP, AUROC at or above 0.99. Name the leakage check you ran and its result in section 3(e).
+- English_job_scams: precision at or above 0.99. Name the leakage check you ran and its result in section 3(e).
+- English_job_scams: fewer than 30 rows in one class (21 positive, 479 negative). The intervals will be wide; keep this in mind for the yes difference in section 5(b).
+- English_phishing: precision, AP, AUROC at or above 0.99. Name the leakage check you ran and its result in section 3(e).
