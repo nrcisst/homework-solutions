@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "threshold": 0.6690056619289263,
+  "validation_fpr": 0.04993136582017845,
+  "validation_recall": 0.5749252107696492,
+  "fit_seconds": 195.00633634299993,
+  "validation_seconds": 15.020960918000128,
+  "test_score_seconds": 4.406035276000011,
+  "feature_count": 80000,
+  "lr_iterations": [
+    9
+  ],
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "visible_cpus": 9,
+  "fit_threads": 1,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "langdetect": "1.0.9",
+    "threadpoolctl": "3.6.0"
+  },
+  "total_seconds_before_checker": 226.38498971
+}
