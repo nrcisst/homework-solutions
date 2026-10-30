@@ -1,0 +1,86 @@
+{
+  "fake_news/train.jsonl": {
+    "sha256": "ef81405f87a2fdadfc13adc04e12e39b0ed9cec5884c86c92943c315024a92b0",
+    "bytes": 55807132
+  },
+  "fake_news/validation.jsonl": {
+    "sha256": "c6d0908e83878be6537673a0b91a92cb7f070e889082a7f63ba17284e471d27d",
+    "bytes": 7022308
+  },
+  "fake_news/test.jsonl": {
+    "sha256": "40f95f02a0280847ca194b50efc741bf2542da20d6755972c72c5cd93e416e4e",
+    "bytes": 6659463
+  },
+  "job_scams/train.jsonl": {
+    "sha256": "ed64c355d9a571e675804e0d83b9b27d29b475fd4b6b9c96f20a0874db3b322c",
+    "bytes": 14557241
+  },
+  "job_scams/validation.jsonl": {
+    "sha256": "62320052a2a74034bf820b4d0cb5d097830e22cc32bc263d8cfc43bf2e3f8e87",
+    "bytes": 1798705
+  },
+  "job_scams/test.jsonl": {
+    "sha256": "905790a8a762d3bd46ab0943f627cf94d7184d5876ebf358bba630f4d20d2fc0",
+    "bytes": 1828210
+  },
+  "phishing/train.jsonl": {
+    "sha256": "a3d65b3fbf2178640a6e0e756349da95f3f10bddf3fac2f205bb3e1aecb9aaf7",
+    "bytes": 28333956
+  },
+  "phishing/validation.jsonl": {
+    "sha256": "321649644c01a0d5523c2c2cec164e0b2a1916196553b4f1fc5be902528b8470",
+    "bytes": 3406078
+  },
+  "phishing/test.jsonl": {
+    "sha256": "a74a0eaef001d0d90dd7db6519a00213cd1bf99b18c06bf5ffc23f2044e5a068",
+    "bytes": 3316934
+  },
+  "political_statements/train.jsonl": {
+    "sha256": "def2c87032e714d060ee89fa7a35652d141d973727cd30b3138dcf28d1fe1e30",
+    "bytes": 1285252
+  },
+  "political_statements/validation.jsonl": {
+    "sha256": "a57329ee3ae07afb47a942599786859ae9ab10f514c51c5517a033c4fd8270c3",
+    "bytes": 166653
+  },
+  "political_statements/test.jsonl": {
+    "sha256": "83af4a3128f7176c58736bf871c0f9d5931150742e72c90677f91ccf63fc45ae",
+    "bytes": 162150
+  },
+  "product_reviews/train.jsonl": {
+    "sha256": "9a2ded5ee6ccd70daa7bc90c8ef9801961ab4d7183a920df9552755379378b9f",
+    "bytes": 6447174
+  },
+  "product_reviews/validation.jsonl": {
+    "sha256": "aa8119bc3bea1feb8d010b07cb698ae3abdb94435585506efc8d511e9a0cb3a7",
+    "bytes": 845433
+  },
+  "product_reviews/test.jsonl": {
+    "sha256": "2ba96de108e99a0d01dc7b7d74070166f0342aff55de14d6dd7e927575bbd3f7",
+    "bytes": 851020
+  },
+  "sms/train.jsonl": {
+    "sha256": "5b8ae34ab91ff7389758e7205e305a231f03d944e3496e1fe5cc9f3f855f0957",
+    "bytes": 568925
+  },
+  "sms/validation.jsonl": {
+    "sha256": "8968d4a2fe4ce2332a1c735e196dfe0d3a893641eef1f0a65921dce167a28788",
+    "bytes": 70800
+  },
+  "sms/test.jsonl": {
+    "sha256": "2ccc32f852dcd4cbe024b2824d5f4562d0102294b75de73f70aa557673fd712a",
+    "bytes": 69286
+  },
+  "twitter_rumours/train.jsonl": {
+    "sha256": "bd0b9bb1b18b051195b44a20c25c879dd1acd4f9efd6849a6f8c435cd1059695",
+    "bytes": 663159
+  },
+  "twitter_rumours/validation.jsonl": {
+    "sha256": "55f13c781533fd41db11c96eb6c4275972a9e79a0661ed7bcbc9c3ddc5ebba3a",
+    "bytes": 84276
+  },
+  "twitter_rumours/test.jsonl": {
+    "sha256": "932fbe9d585661c3768afbb6de2268100825822f45cce813a0a5a25cfb659492",
+    "bytes": 83322
+  }
+}
