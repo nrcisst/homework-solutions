@@ -1,0 +1,54 @@
+{
+  "revision": "f8fa04aff083aa22c6878d005b4655e34a4cbd85",
+  "raw_rows": 95854,
+  "raw_columns": [
+    "text",
+    "label"
+  ],
+  "class_counts": {
+    "0": 58572,
+    "1": 37282
+  },
+  "missing_target": 0,
+  "invalid_target": 0,
+  "missing_or_empty_text": 0,
+  "entity_ids": "unavailable: source files contain only text and label",
+  "time_range": "unavailable: no row timestamps",
+  "exact_text": {
+    "groups": 93,
+    "extra_rows": 115,
+    "rows_in_groups": 208,
+    "original_cross_split_groups": 34,
+    "conflicting_label_groups": 0
+  },
+  "normalized_text": {
+    "groups": 670,
+    "extra_rows": 802,
+    "rows_in_groups": 1472,
+    "original_cross_split_groups": 263,
+    "conflicting_label_groups": 1
+  },
+  "normalization_rule": "Unicode lower(); remove characters outside \\w and whitespace; collapse whitespace; strip",
+  "conflict_rows_removed": 2,
+  "additional_duplicate_rows_removed": 801,
+  "clean_rows": 95051,
+  "test_candidates": 9506,
+  "test_non_english_or_unknown_excluded": 72,
+  "test_english_excluded_by_cap": 5934,
+  "test_cap_per_domain": 500,
+  "retained_rows": 89045,
+  "original_roles_changed_before_test_sampling": 32082,
+  "retained_non_english_flags": {
+    "train": 521,
+    "validation": 66,
+    "test": 0
+  },
+  "leakage": {
+    "train_rows_matching_test_text": 0,
+    "train_rows_matching_validation_text": 0,
+    "validation_rows_matching_test_text": 0,
+    "train_rows_matching_test_normalized": 0,
+    "train_rows_matching_validation_normalized": 0,
+    "validation_rows_matching_test_normalized": 0
+  }
+}
