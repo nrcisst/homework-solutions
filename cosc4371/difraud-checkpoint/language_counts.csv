@@ -1,0 +1,15 @@
+domain,label,rows,non_english_flags,unknown,flagged_percent
+fake_news,0,11624,0,0,0.0
+fake_news,1,8832,0,0,0.0
+job_scams,0,13696,0,0,0.0
+job_scams,1,599,0,0,0.0
+phishing,0,9198,10,0,0.10871928680147858
+phishing,1,6074,4,0,0.0658544616397761
+political_statements,0,4455,21,0,0.4713804713804714
+political_statements,1,8042,61,0,0.7585177816463566
+product_reviews,0,10479,0,0,0.0
+product_reviews,1,10492,0,0,0.0
+sms,0,5300,518,3,9.773584905660377
+sms,1,1274,8,0,0.6279434850863422
+twitter_rumours,0,3820,34,0,0.8900523560209425
+twitter_rumours,1,1969,23,0,1.1681056373793803
