@@ -1,0 +1,5 @@
+.venv/
+data/
+__pycache__/
+language_predictions.csv
+*.pyc
