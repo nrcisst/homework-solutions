@@ -1,0 +1,57 @@
+{
+  "method": "Clean code directory, no generated outputs or language cache; reran complete pipeline using SHA-256-verified local data through documented --data-dir option. Same installed Python/package environment; not a new virtual environment. Initial download path was exercised separately.",
+  "all_identical": true,
+  "checks": {
+    "split.csv": {
+      "identical": true,
+      "sha256": "f808287318f15808f657eabe68a9dded57d7778e829a779004369879476bf40a",
+      "fresh_sha256": "f808287318f15808f657eabe68a9dded57d7778e829a779004369879476bf40a"
+    },
+    "scores.csv": {
+      "identical": true,
+      "sha256": "7fb2557044a255d619ea6f72e22b44ac2b66502ac71b83393ef5816b57865545",
+      "fresh_sha256": "7fb2557044a255d619ea6f72e22b44ac2b66502ac71b83393ef5816b57865545"
+    },
+    "paired_test_ids.csv": {
+      "identical": true,
+      "sha256": "4d73e496eef590c321e896ba653d40be169bd850301e2b8a28df16724a4116a3",
+      "fresh_sha256": "4d73e496eef590c321e896ba653d40be169bd850301e2b8a28df16724a4116a3"
+    },
+    "threshold.txt": {
+      "identical": true,
+      "sha256": "f17adce169e89702165a078b249d7ce2234c5dd6a0542500973a326714459a81",
+      "fresh_sha256": "f17adce169e89702165a078b249d7ce2234c5dd6a0542500973a326714459a81"
+    },
+    "checker_output.txt": {
+      "identical": true,
+      "sha256": "9fbe162b0a19fdc68a155d9bcdb1826fa8323270db2c6ea29fa4423214b0341f",
+      "fresh_sha256": "9fbe162b0a19fdc68a155d9bcdb1826fa8323270db2c6ea29fa4423214b0341f"
+    },
+    "audit.json": {
+      "identical": true,
+      "sha256": "25c360bdb417067de7db0a6d3232240a8ba81cb67aeb19229932bee1da29137b",
+      "fresh_sha256": "25c360bdb417067de7db0a6d3232240a8ba81cb67aeb19229932bee1da29137b"
+    },
+    "language_counts.csv": {
+      "identical": true,
+      "sha256": "ef80cd0abce38e0c780141c6fb125a2e11e81a1ef0b50ebdbb7d8923d77b8073",
+      "fresh_sha256": "ef80cd0abce38e0c780141c6fb125a2e11e81a1ef0b50ebdbb7d8923d77b8073"
+    },
+    "domain_audit.csv": {
+      "identical": true,
+      "sha256": "ecd3044c53393afdd7c3754aa2a232c3566c1d18440952a959c8d598a6f5de88",
+      "fresh_sha256": "ecd3044c53393afdd7c3754aa2a232c3566c1d18440952a959c8d598a6f5de88"
+    },
+    "aggregate_metrics.json": {
+      "identical": true,
+      "sha256": "88ac8b01a78d9e79a7d617fc3effd041e0f931a31c5c8b2c383da0708d1b0121",
+      "fresh_sha256": "88ac8b01a78d9e79a7d617fc3effd041e0f931a31c5c8b2c383da0708d1b0121"
+    },
+    "language_predictions.csv": {
+      "identical": true,
+      "sha256": "e8498cd28deb2cd914ed35983f08bdac3520241768afc939965efca4c8dc5201",
+      "fresh_sha256": "e8498cd28deb2cd914ed35983f08bdac3520241768afc939965efca4c8dc5201"
+    }
+  },
+  "fresh_fit_seconds": 184.60585951400003
+}
