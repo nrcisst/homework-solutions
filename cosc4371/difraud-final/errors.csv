@@ -1,0 +1,21 @@
+row_id,value,column,category
+difraud:sms:train:2417,Spanish,LR / pooled,Personal conversation
+difraud:political_statements:train:7346,Spanish,LR / pooled,Short political claim
+difraud:political_statements:train:8018,Spanish,LR / pooled,Short political claim
+difraud:sms:train:1420,Spanish,LR / pooled,Personal conversation
+difraud:sms:test:594,Spanish,LR / pooled,Personal conversation
+difraud:twitter_rumours:train:1482,Spanish,LR / pooled,News or event narrative
+difraud:fake_news:train:7003,Spanish,LR / pooled,News or event narrative
+difraud:political_statements:train:1386,Spanish,LR / pooled,Short political claim
+difraud:political_statements:test:606,Spanish,LR / pooled,Short political claim
+difraud:fake_news:train:4287,Spanish,LR / pooled,News or event narrative
+difraud:political_statements:train:2121,Spanish,LR / pooled,Short political claim
+difraud:twitter_rumours:train:3666,Spanish,LR / pooled,News or event narrative
+difraud:sms:train:4056,Spanish,LR / pooled,Personal conversation
+difraud:twitter_rumours:train:3602,Spanish,LR / pooled,News or event narrative
+difraud:fake_news:train:11833,Spanish,LR / pooled,News or event narrative
+difraud:political_statements:train:6298,Spanish,LR / pooled,Short political claim
+difraud:phishing:train:11473,Spanish,LR / pooled,Credential request
+difraud:political_statements:train:5347,Spanish,LR / pooled,Short political claim
+difraud:fake_news:train:6042,Spanish,LR / pooled,News or event narrative
+difraud:product_reviews:train:2908,Spanish,LR / pooled,Product endorsement

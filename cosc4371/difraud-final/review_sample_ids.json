@@ -1,0 +1,22 @@
+[
+  "difraud:political_statements:train:345",
+  "difraud:product_reviews:validation:119",
+  "difraud:product_reviews:train:1700",
+  "difraud:political_statements:validation:1136",
+  "difraud:fake_news:train:4375",
+  "difraud:product_reviews:train:5780",
+  "difraud:political_statements:train:3851",
+  "difraud:political_statements:train:4212",
+  "difraud:phishing:train:3019",
+  "difraud:fake_news:train:494",
+  "difraud:political_statements:train:3314",
+  "difraud:sms:train:4205",
+  "difraud:twitter_rumours:train:2405",
+  "difraud:job_scams:train:5817",
+  "difraud:job_scams:test:968",
+  "difraud:job_scams:train:4995",
+  "difraud:job_scams:train:9774",
+  "difraud:phishing:validation:1252",
+  "difraud:twitter_rumours:train:3995",
+  "difraud:sms:train:1242"
+]

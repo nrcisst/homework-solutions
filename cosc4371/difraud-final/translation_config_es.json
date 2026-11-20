@@ -1,0 +1,13 @@
+{
+  "model": "Helsinki-NLP/opus-mt-en-es",
+  "revision": "5bc4493d463cf000c1f0b50f8d56886a392ed4ab",
+  "engine": "CTranslate2",
+  "compute_type": "int8",
+  "beam_size": 1,
+  "source_chunk_tokens": 256,
+  "max_decoding_length": 512,
+  "inter_threads": 1,
+  "intra_threads": 2,
+  "segmentation": "sentence punctuation plus whitespace, or newline; then chunks of <=256 source tokens",
+  "output_cap_recovery": "On capped messages, retranslate all segments; retry capped segments with beam4/no-repeat-3, retaining their context. Recursively bisect only if still capped. No unresolved caps permitted."
+}

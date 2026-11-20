@@ -1,0 +1,22 @@
+[
+  {
+    "category": "Personal conversation",
+    "rule": "Personal chat, coordination or an invitation to talk, without an account-security demand."
+  },
+  {
+    "category": "Short political claim",
+    "rule": "A short factual assertion about a political actor, funding, policy or public institution; no extended news narrative."
+  },
+  {
+    "category": "News or event narrative",
+    "rule": "A reported public event or news narrative, including event-linked social posts; excludes standalone political assertions."
+  },
+  {
+    "category": "Credential request",
+    "rule": "An account warning explicitly requests credentials or passwords; this rule takes priority over conversational wording."
+  },
+  {
+    "category": "Product endorsement",
+    "rule": "A first-person product endorsement reports satisfaction, features or performance."
+  }
+]

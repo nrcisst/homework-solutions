@@ -1,0 +1,21 @@
+row_id,category
+difraud:sms:train:2417,Personal conversation
+difraud:political_statements:train:7346,Short political claim
+difraud:political_statements:train:8018,Short political claim
+difraud:sms:train:1420,Personal conversation
+difraud:sms:test:594,Personal conversation
+difraud:twitter_rumours:train:1482,News or event narrative
+difraud:fake_news:train:7003,News or event narrative
+difraud:political_statements:train:1386,Short political claim
+difraud:political_statements:test:606,Short political claim
+difraud:fake_news:train:4287,News or event narrative
+difraud:political_statements:train:2121,Short political claim
+difraud:twitter_rumours:train:3666,News or event narrative
+difraud:sms:train:4056,Personal conversation
+difraud:twitter_rumours:train:3602,News or event narrative
+difraud:fake_news:train:11833,News or event narrative
+difraud:political_statements:train:6298,Short political claim
+difraud:phishing:train:11473,Credential request
+difraud:political_statements:train:5347,Short political claim
+difraud:fake_news:train:6042,News or event narrative
+difraud:product_reviews:train:2908,Product endorsement

@@ -1,0 +1,242 @@
+[
+  {
+    "row_id": "difraud:fake_news:train:494",
+    "language": "es",
+    "status": "wording_error",
+    "note": "Main retirement-benefit figures and narrative are retained. The phrase 62-year-old becomes a 62-year-old child (un nino de 62 anos), and the survey attribution sentence is awkward. This needs bilingual review; no inherited label was changed."
+  },
+  {
+    "row_id": "difraud:fake_news:train:4375",
+    "language": "es",
+    "status": "meaning_risk",
+    "note": "The main disenfranchisement story and numerical comparisons are retained, but the sentence saying Paulson supports voting rights for nonviolent ex-felons is omitted. Abbreviation segmentation creates broken U.S./Nov./St. phrases; the final source URL is omitted."
+  },
+  {
+    "row_id": "difraud:fake_news:train:494",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "The main retirement narrative, sample size and most figures are retained. Up to 30 percent becomes 30 percent; the hiring quote retains an English word and is ungrammatical. The leave Social Security as it is quote is awkward and potentially ambiguous."
+  },
+  {
+    "row_id": "difraud:job_scams:train:9774",
+    "language": "es",
+    "status": "wording_error",
+    "note": "The Vend support role, required skills, eight-hour shifts and workday options remain recognizable. No earlier than 7am / no later than 9pm becomes fixed 7am/9pm wording; several idioms are literal. No obvious change in the listing category."
+  },
+  {
+    "row_id": "difraud:job_scams:train:5817",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "Caregiver/CNA role, $40 two-hour shift, minimum three days and 11:00-1:00 schedule are retained; ordinary recruitment meaning is recognizable."
+  },
+  {
+    "row_id": "difraud:job_scams:test:968",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "Designer qualifications, HTML/CSS, user-centered design and responsibilities are preserved; minor awkward phrasing in the feedback bullet."
+  },
+  {
+    "row_id": "difraud:job_scams:test:968",
+    "language": "fr",
+    "status": "no_major_issue",
+    "note": "Designer role, technical qualifications and usability responsibilities remain recognizable; no obvious label-relevant shift found in this review."
+  },
+  {
+    "row_id": "difraud:job_scams:train:9774",
+    "language": "fr",
+    "status": "no_major_issue",
+    "note": "Vend support role, shift length and earliest/latest time constraints are retained. Some idioms and the word knack are literal/partly untranslated, without an obvious change in the listing meaning."
+  },
+  {
+    "row_id": "difraud:job_scams:train:5817",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "Pay, two-hour shift and availability are retained. The company mission sentence is omitted, and interview is mistranslated as interpeller; the caregiver-job meaning remains identifiable."
+  },
+  {
+    "row_id": "difraud:job_scams:train:4995",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "Software engineering experience, web/e-commerce/server work and team activities are retained with no obvious substantive change."
+  },
+  {
+    "row_id": "difraud:job_scams:train:4995",
+    "language": "fr",
+    "status": "no_major_issue",
+    "note": "Software engineering role and responsibilities are retained; minor tense awkwardness does not visibly change the job meaning."
+  },
+  {
+    "row_id": "difraud:phishing:train:3019",
+    "language": "es",
+    "status": "wording_error",
+    "note": "Event, dates and departmental allocations remain. The no-plus-ones restriction is rendered as no more and loses its clear guest meaning; by the deadline becomes on the date."
+  },
+  {
+    "row_id": "difraud:phishing:train:3019",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "White House event and numbers are retained, but no-plus-ones becomes unclear and DNC/POCs acronyms are altered. Benign invitation meaning is still recognizable."
+  },
+  {
+    "row_id": "difraud:phishing:validation:1252",
+    "language": "es",
+    "status": "wording_error",
+    "note": "The New Year greeting is retained; the mobile signature Sent on the run becomes Steve sent to run, changing signature wording without an obvious deception-label change."
+  },
+  {
+    "row_id": "difraud:phishing:validation:1252",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "The greeting remains but healthy is lost and the mobile signature becomes sent on the run/in flight (en fuite), an awkward literal rendering."
+  },
+  {
+    "row_id": "difraud:political_statements:train:345",
+    "language": "fr",
+    "status": "meaning_risk",
+    "note": "Initial output reverses jammed it through into blocked it. Correct this phrase to fait passer en force before scoring, preserving the original claim and inherited label."
+  },
+  {
+    "row_id": "difraud:political_statements:validation:1136",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "The denial of knowledge and case closure are retained. U.S. abbreviation segmentation is awkward and fathers is rendered as plural fathers rather than possessive father."
+  },
+  {
+    "row_id": "difraud:political_statements:train:3851",
+    "language": "fr",
+    "status": "no_major_issue",
+    "note": "The claim that no Democrat endorses the Romney-Ryan Medicare plan preserves its negation and named plan."
+  },
+  {
+    "row_id": "difraud:political_statements:train:4212",
+    "language": "fr",
+    "status": "no_major_issue",
+    "note": "Energy standards, loss-of-choice claim and household light bulbs are retained."
+  },
+  {
+    "row_id": "difraud:political_statements:train:3314",
+    "language": "fr",
+    "status": "no_major_issue",
+    "note": "The audit claim preserves 6.5 million, active Social Security numbers and the 112-or-older age condition."
+  },
+  {
+    "row_id": "difraud:political_statements:train:345",
+    "language": "es",
+    "status": "meaning_risk",
+    "note": "Initial output renders jammed it through as lo atasco (jammed/blocked it). Correct to lo saco adelante por la fuerza before scoring to retain forced passage."
+  },
+  {
+    "row_id": "difraud:product_reviews:validation:119",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "Cheap-scooter recommendation and instability criticism, including the three-year-old comparison, are retained."
+  },
+  {
+    "row_id": "difraud:product_reviews:validation:119",
+    "language": "fr",
+    "status": "no_major_issue",
+    "note": "The cheap-scooter instability criticism and conditional purchase advice remain recognizable; three-year-old abbreviation is left in English."
+  },
+  {
+    "row_id": "difraud:product_reviews:train:1700",
+    "language": "fr",
+    "status": "meaning_risk",
+    "note": "Initial output turns super-sharp into super-dreadful and camera delivers into camera is delivered. Correct those two claims before scoring. Other awkward literal phrasing remains logged."
+  },
+  {
+    "row_id": "difraud:political_statements:validation:1136",
+    "language": "es",
+    "status": "wording_error",
+    "note": "Denial of knowledge and case closure remain, but my fathers campaign contributions becomes awkward campaign-of-parents phrasing and U.S. is split."
+  },
+  {
+    "row_id": "difraud:product_reviews:train:5780",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "Positive shipping/price opinion and 56.00 are retained; ground shipping is translated literally as soil/ground."
+  },
+  {
+    "row_id": "difraud:political_statements:train:3851",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "No Democrat, named Romney-Ryan plan and endorsement negation are retained."
+  },
+  {
+    "row_id": "difraud:political_statements:train:4212",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "The claim about energy standards removing light-bulb choice is preserved."
+  },
+  {
+    "row_id": "difraud:political_statements:train:3314",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "The audit claim retains 6.5 million, active Social Security numbers and age 112 or older."
+  },
+  {
+    "row_id": "difraud:product_reviews:train:1700",
+    "language": "es",
+    "status": "wording_error",
+    "note": "Positive camera recommendation and sharp-lens opinion remain; point-and-shoot and camera delivers are literal/awkward, but there is no clear polarity reversal."
+  },
+  {
+    "row_id": "difraud:product_reviews:train:5780",
+    "language": "es",
+    "status": "wording_error",
+    "note": "Fast shipping, positive price opinion, reorder intention and 56.00 remain; ground shipping is rendered literally."
+  },
+  {
+    "row_id": "difraud:sms:train:4205",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "The interpersonal complaint about rejected calls remains recognizable; the final source fragment is also incomplete/awkward."
+  },
+  {
+    "row_id": "difraud:sms:train:4205",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "Interpersonal complaint is retained, but my calls becomes calls and pronouns switch informality; no obvious spam/nonspam change."
+  },
+  {
+    "row_id": "difraud:twitter_rumours:train:2405",
+    "language": "es",
+    "status": "no_major_issue",
+    "note": "Gunman shot dead, possible others at large and soldier shot are retained, although Gunman/Cdn remain partly untranslated."
+  },
+  {
+    "row_id": "difraud:twitter_rumours:train:2405",
+    "language": "fr",
+    "status": "meaning_risk",
+    "note": "Initial output makes the dead gunman the killer and makes the shot soldier a shooter. Correct both active/passive reversals before scoring."
+  },
+  {
+    "row_id": "difraud:twitter_rumours:train:3995",
+    "language": "es",
+    "status": "wording_error",
+    "note": "Free-speech/double-standard topic and exact URL are retained. Coordination can attribute the double standard to Charlie Hebdo as well as the West; hashtag and West wording change."
+  },
+  {
+    "row_id": "difraud:twitter_rumours:train:3995",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "General free-speech/double-standard topic and URL survive, but West stays English and coordination is ambiguous about whose double standards are meant."
+  },
+  {
+    "row_id": "difraud:sms:train:1242",
+    "language": "es",
+    "status": "wording_error",
+    "note": "Phone promotion, half-price offer, 12 months, 500 minutes, 100 texts and phone number remain. Several abbreviations and Half Price stay untranslated."
+  },
+  {
+    "row_id": "difraud:sms:train:1242",
+    "language": "fr",
+    "status": "wording_error",
+    "note": "Promotional offer and numeric/contact details remain; many marketing abbreviations and Half Price are only partly translated."
+  },
+  {
+    "row_id": "difraud:fake_news:train:4375",
+    "language": "fr",
+    "status": "meaning_risk",
+    "note": "Reviewed after output-cap repair. The main voting-rights story and most figures remain, but Paulsons support sentence and the 537-vote detail are omitted. The final source link/headline becomes garbled punctuation, and abbreviation/idiom errors remain. No label was changed; independent bilingual review is needed."
+  }
+]

@@ -1,0 +1,25 @@
+value,column,auroc,low,high
+English,LR / fake_news,0.9932,0.9888,0.997
+English,LR / job_scams,0.8687,0.7667,0.947
+English,LR / phishing,0.9977,0.9954,0.9995
+English,LR / political_statements,0.6087,0.5516,0.6596
+English,LR / product_reviews,0.7203,0.6724,0.7632
+English,LR / sms,0.9621,0.9419,0.9799
+English,LR / twitter_rumours,0.8962,0.8672,0.924
+English,LR / pooled,0.9249,0.9163,0.9331
+Spanish,LR / fake_news,0.8181,0.7835,0.851
+Spanish,LR / job_scams,0.6474,0.5066,0.7862
+Spanish,LR / phishing,0.9374,0.9181,0.9541
+Spanish,LR / political_statements,0.5308,0.4765,0.5847
+Spanish,LR / product_reviews,0.5195,0.4707,0.5668
+Spanish,LR / sms,0.8993,0.8653,0.9351
+Spanish,LR / twitter_rumours,0.8079,0.7656,0.8462
+Spanish,LR / pooled,0.7804,0.7648,0.797
+French,LR / fake_news,0.8628,0.8288,0.8932
+French,LR / job_scams,0.7245,0.5783,0.8573
+French,LR / phishing,0.9343,0.9135,0.9548
+French,LR / political_statements,0.5639,0.5089,0.6176
+French,LR / product_reviews,0.5424,0.4911,0.5902
+French,LR / sms,0.9017,0.8629,0.9342
+French,LR / twitter_rumours,0.789,0.7443,0.8284
+French,LR / pooled,0.8079,0.7937,0.8214

@@ -1,0 +1,12 @@
+{
+  "sample_rows": 200,
+  "seed": 42,
+  "sample_source": "random retained rows; timing sample only",
+  "lingua_mode": "all languages, low accuracy",
+  "lingua_warmup_seconds": 0.03026206699996692,
+  "lingua_seconds": 4.150531769999816,
+  "langdetect_seconds": 2.4173012029996244,
+  "raw_rows": 95854,
+  "estimated_minutes": 52.46325951727403,
+  "note": "Extrapolates single-process calls to all 95,854 raw rows. The disagreement review itself remains unfinished. Manual review is excluded."
+}

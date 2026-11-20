@@ -1,0 +1,22 @@
+{
+  "model": "FacebookAI/xlm-roberta-base",
+  "revision": "e73636d4f797dec63c3081bb6ed5c7b0bb3f2089",
+  "device": "cpu",
+  "threads": 4,
+  "batch_size": 2,
+  "max_length": 256,
+  "optimizer": "AdamW",
+  "learning_rate": 2e-05,
+  "planned_epochs": 2,
+  "training_steps_seconds": [
+    14.527065356000094,
+    4.719758728000215,
+    4.624460638000073
+  ],
+  "steady_seconds_per_step": 4.672109683000144,
+  "training_minutes_estimate": 5921.120338255516,
+  "validation_and_test_minutes_estimate": 112.85396620979479,
+  "inference_seconds_per_batch": 0.45891141799984325,
+  "training_rows": 76040,
+  "note": "Short benchmark only; no trained transformer results. Extrapolation excludes downloads/tokenization and assumes the measured CPU throughput. Validation threshold will use the midsemester FPR<=5% rule. Test results will not select a checkpoint."
+}

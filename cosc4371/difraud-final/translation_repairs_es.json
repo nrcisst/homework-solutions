@@ -1,0 +1,260 @@
+{
+  "repaired_rows": [
+    {
+      "row_id": "difraud:fake_news:train:4450",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:fake_news:train:1857",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:job_scams:train:9034",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:validation:1281",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:7639",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:5270",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:8095",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:3621",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:1188",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:6275",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:6233",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:1327",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:1637",
+      "initial_cap_chunks": 5,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:11712",
+      "initial_cap_chunks": 3,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:1166",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:test:1178",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:8476",
+      "initial_cap_chunks": 3,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:9937",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:11495",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:488",
+      "initial_cap_chunks": 4,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:5465",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:10354",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:9940",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:6584",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:10228",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:3107",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:5547",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:1727",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:5555",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:7634",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:12117",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:413",
+      "initial_cap_chunks": 3,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:test:185",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:test:1162",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:4332",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:10134",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:6156",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:7348",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:7120",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:2717",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:3790",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:validation:1280",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:672",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:8687",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:199",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:1032",
+      "initial_cap_chunks": 3,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:validation:1417",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:5126",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:4581",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:2548",
+      "initial_cap_chunks": 1,
+      "remaining_cap_chunks": 0
+    },
+    {
+      "row_id": "difraud:phishing:train:3043",
+      "initial_cap_chunks": 2,
+      "remaining_cap_chunks": 0
+    }
+  ],
+  "seconds": 487.3606718379997
+}

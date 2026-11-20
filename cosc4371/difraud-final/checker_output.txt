@@ -1,0 +1,456 @@
+split.csv: 89045 rows. scores.csv: 21000 rows, 3 value(s), 8 column(s).
+Values: English, Spanish, French
+
+Rows per dataset and split
+--------------------------
+dataset      split  rows  positive  negative  positive %
+DIFrauD      train 76040     29415     46625       38.68
+DIFrauD validation  9505      3677      5828       38.68
+DIFrauD       test  3500      1267      2233       36.20
+
+Metrics per value and column (positive when score >= the threshold)
+-------------------------------------------------------------------
+Each value is followed by its 95% bootstrap interval in brackets.
+
+Value: English   Column: LR / fake_news
+  threshold                 0.669006
+  test rows                 500
+  positive rows             216 (43.20%)
+  negative rows             284 (56.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.4320 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9943 [0.9819, 1.0000]
+  recall                    0.8102 [0.7588, 0.8628]
+  false-positive rate       0.0035 [0.0000, 0.0109]
+  AP                        0.9916 [0.9855, 0.9964]
+  AUROC                     0.9932 [0.9888, 0.9970]
+
+Value: English   Column: LR / job_scams
+  threshold                 0.669006
+  test rows                 500
+  positive rows             21 (4.20%)
+  negative rows             479 (95.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.0420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 1.0000 [1.0000, 1.0000]
+  recall                    0.0476 [0.0000, 0.1667]
+  false-positive rate       0.0000 [0.0000, 0.0000]
+  AP                        0.3990 [0.1975, 0.6173]
+  AUROC                     0.8687 [0.7667, 0.9470]
+
+Value: English   Column: LR / phishing
+  threshold                 0.669006
+  test rows                 500
+  positive rows             194 (38.80%)
+  negative rows             306 (61.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9945 [0.9816, 1.0000]
+  recall                    0.9278 [0.8865, 0.9624]
+  false-positive rate       0.0033 [0.0000, 0.0103]
+  AP                        0.9967 [0.9935, 0.9993]
+  AUROC                     0.9977 [0.9954, 0.9995]
+
+Value: English   Column: LR / political_statements
+  threshold                 0.669006
+  test rows                 500
+  positive rows             321 (64.20%)
+  negative rows             179 (35.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.6420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.7360 [0.6685, 0.7966]
+  recall                    0.4081 [0.3543, 0.4598]
+  false-positive rate       0.2626 [0.1955, 0.3314]
+  AP                        0.7323 [0.6780, 0.7851]
+  AUROC                     0.6087 [0.5516, 0.6596]
+
+Value: English   Column: LR / product_reviews
+  threshold                 0.669006
+  test rows                 500
+  positive rows             250 (50.00%)
+  negative rows             250 (50.00%)
+  bootstrap resamples       1000
+  random-scorer AP          0.5000 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.7583 [0.6812, 0.8333]
+  recall                    0.3640 [0.3065, 0.4211]
+  false-positive rate       0.1160 [0.0782, 0.1566]
+  AP                        0.7071 [0.6449, 0.7650]
+  AUROC                     0.7203 [0.6724, 0.7632]
+
+Value: English   Column: LR / sms
+  threshold                 0.669006
+  test rows                 500
+  positive rows             94 (18.80%)
+  negative rows             406 (81.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.1880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9375 [0.8750, 0.9867]
+  recall                    0.7979 [0.7142, 0.8792]
+  false-positive rate       0.0123 [0.0025, 0.0247]
+  AP                        0.9059 [0.8576, 0.9471]
+  AUROC                     0.9621 [0.9419, 0.9799]
+
+Value: English   Column: LR / twitter_rumours
+  threshold                 0.669006
+  test rows                 500
+  positive rows             171 (34.20%)
+  negative rows             329 (65.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.8854 [0.8172, 0.9457]
+  recall                    0.4971 [0.4101, 0.5706]
+  false-positive rate       0.0334 [0.0153, 0.0541]
+  AP                        0.8369 [0.7861, 0.8845]
+  AUROC                     0.8962 [0.8672, 0.9240]
+
+Value: English   Column: LR / pooled
+  threshold                 0.669006
+  test rows                 3500
+  positive rows             1267 (36.20%)
+  negative rows             2233 (63.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3620 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.8870 [0.8636, 0.9089]
+  recall                    0.5825 [0.5563, 0.6088]
+  false-positive rate       0.0421 [0.0338, 0.0511]
+  AP                        0.8787 [0.8634, 0.8937]
+  AUROC                     0.9249 [0.9163, 0.9331]
+
+Value: Spanish   Column: LR / fake_news
+  threshold                 0.669006
+  test rows                 500
+  positive rows             216 (43.20%)
+  negative rows             284 (56.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.4320 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9200 [0.8550, 0.9753]
+  recall                    0.3194 [0.2593, 0.3790]
+  false-positive rate       0.0211 [0.0068, 0.0389]
+  AP                        0.7934 [0.7434, 0.8424]
+  AUROC                     0.8181 [0.7835, 0.8510]
+
+Value: Spanish   Column: LR / job_scams
+  threshold                 0.669006
+  test rows                 500
+  positive rows             21 (4.20%)
+  negative rows             479 (95.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.0420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 undefined (no row scored at or above the threshold)
+  recall                    0.0000 [0.0000, 0.0000]
+  false-positive rate       0.0000 [0.0000, 0.0000]
+  AP                        0.1308 [0.0607, 0.2979]
+  AUROC                     0.6474 [0.5066, 0.7862]
+
+Value: Spanish   Column: LR / phishing
+  threshold                 0.669006
+  test rows                 500
+  positive rows             194 (38.80%)
+  negative rows             306 (61.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9855 [0.9500, 1.0000]
+  recall                    0.3505 [0.2863, 0.4149]
+  false-positive rate       0.0033 [0.0000, 0.0102]
+  AP                        0.9058 [0.8726, 0.9352]
+  AUROC                     0.9374 [0.9181, 0.9541]
+
+Value: Spanish   Column: LR / political_statements
+  threshold                 0.669006
+  test rows                 500
+  positive rows             321 (64.20%)
+  negative rows             179 (35.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.6420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.6034 [0.4821, 0.7289]
+  recall                    0.1090 [0.0764, 0.1437]
+  false-positive rate       0.1285 [0.0791, 0.1818]
+  AP                        0.6561 [0.6021, 0.7188]
+  AUROC                     0.5308 [0.4765, 0.5847]
+
+Value: Spanish   Column: LR / product_reviews
+  threshold                 0.669006
+  test rows                 500
+  positive rows             250 (50.00%)
+  negative rows             250 (50.00%)
+  bootstrap resamples       1000
+  random-scorer AP          0.5000 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.3333 [0.0000, 0.8000]
+  recall                    0.0080 [0.0000, 0.0204]
+  false-positive rate       0.0160 [0.0037, 0.0327]
+  AP                        0.5101 [0.4548, 0.5787]
+  AUROC                     0.5195 [0.4707, 0.5668]
+
+Value: Spanish   Column: LR / sms
+  threshold                 0.669006
+  test rows                 500
+  positive rows             94 (18.80%)
+  negative rows             406 (81.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.1880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.8333 [0.7000, 0.9444]
+  recall                    0.3191 [0.2299, 0.4167]
+  false-positive rate       0.0148 [0.0048, 0.0284]
+  AP                        0.7372 [0.6475, 0.8163]
+  AUROC                     0.8993 [0.8653, 0.9351]
+
+Value: Spanish   Column: LR / twitter_rumours
+  threshold                 0.669006
+  test rows                 500
+  positive rows             171 (34.20%)
+  negative rows             329 (65.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.7895 [0.5789, 0.9524]
+  recall                    0.0877 [0.0485, 0.1350]
+  false-positive rate       0.0122 [0.0029, 0.0261]
+  AP                        0.6982 [0.6250, 0.7686]
+  AUROC                     0.8079 [0.7656, 0.8462]
+
+Value: Spanish   Column: LR / pooled
+  threshold                 0.669006
+  test rows                 3500
+  positive rows             1267 (36.20%)
+  negative rows             2233 (63.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3620 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.8327 [0.7849, 0.8750]
+  recall                    0.1728 [0.1528, 0.1940]
+  false-positive rate       0.0197 [0.0142, 0.0260]
+  AP                        0.6766 [0.6492, 0.7043]
+  AUROC                     0.7804 [0.7648, 0.7970]
+
+Value: French   Column: LR / fake_news
+  threshold                 0.669006
+  test rows                 500
+  positive rows             216 (43.20%)
+  negative rows             284 (56.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.4320 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9688 [0.8974, 1.0000]
+  recall                    0.1435 [0.0961, 0.1922]
+  false-positive rate       0.0035 [0.0000, 0.0110]
+  AP                        0.8333 [0.7882, 0.8765]
+  AUROC                     0.8628 [0.8288, 0.8932]
+
+Value: French   Column: LR / job_scams
+  threshold                 0.669006
+  test rows                 500
+  positive rows             21 (4.20%)
+  negative rows             479 (95.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.0420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.0000 [0.0000, 0.0000]
+  recall                    0.0000 [0.0000, 0.0000]
+  false-positive rate       0.0021 [0.0000, 0.0063]
+  AP                        0.1441 [0.0745, 0.2953]
+  AUROC                     0.7245 [0.5783, 0.8573]
+
+Value: French   Column: LR / phishing
+  threshold                 0.669006
+  test rows                 500
+  positive rows             194 (38.80%)
+  negative rows             306 (61.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9655 [0.9123, 1.0000]
+  recall                    0.2887 [0.2277, 0.3552]
+  false-positive rate       0.0065 [0.0000, 0.0165]
+  AP                        0.8979 [0.8619, 0.9325]
+  AUROC                     0.9343 [0.9135, 0.9548]
+
+Value: French   Column: LR / political_statements
+  threshold                 0.669006
+  test rows                 500
+  positive rows             321 (64.20%)
+  negative rows             179 (35.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.6420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.6875 [0.5000, 0.8500]
+  recall                    0.0685 [0.0414, 0.0974]
+  false-positive rate       0.0559 [0.0235, 0.0929]
+  AP                        0.6810 [0.6237, 0.7443]
+  AUROC                     0.5639 [0.5089, 0.6176]
+
+Value: French   Column: LR / product_reviews
+  threshold                 0.669006
+  test rows                 500
+  positive rows             250 (50.00%)
+  negative rows             250 (50.00%)
+  bootstrap resamples       1000
+  random-scorer AP          0.5000 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 1.0000 [1.0000, 1.0000]
+  recall                    0.0080 [0.0000, 0.0206]
+  false-positive rate       0.0000 [0.0000, 0.0000]
+  AP                        0.5505 [0.4918, 0.6181]
+  AUROC                     0.5424 [0.4911, 0.5902]
+
+Value: French   Column: LR / sms
+  threshold                 0.669006
+  test rows                 500
+  positive rows             94 (18.80%)
+  negative rows             406 (81.20%)
+  bootstrap resamples       1000
+  random-scorer AP          0.1880 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9000 [0.7742, 1.0000]
+  recall                    0.2872 [0.1976, 0.3824]
+  false-positive rate       0.0074 [0.0000, 0.0172]
+  AP                        0.7599 [0.6780, 0.8323]
+  AUROC                     0.9017 [0.8629, 0.9342]
+
+Value: French   Column: LR / twitter_rumours
+  threshold                 0.669006
+  test rows                 500
+  positive rows             171 (34.20%)
+  negative rows             329 (65.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3420 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 1.0000 [1.0000, 1.0000]
+  recall                    0.1111 [0.0663, 0.1595]
+  false-positive rate       0.0000 [0.0000, 0.0000]
+  AP                        0.7109 [0.6506, 0.7657]
+  AUROC                     0.7890 [0.7443, 0.8284]
+
+Value: French   Column: LR / pooled
+  threshold                 0.669006
+  test rows                 3500
+  positive rows             1267 (36.20%)
+  negative rows             2233 (63.80%)
+  bootstrap resamples       1000
+  random-scorer AP          0.3620 (equals the positive share)
+  random-scorer AUROC       0.5000
+  precision                 0.9023 [0.8580, 0.9468]
+  recall                    0.1239 [0.1050, 0.1434]
+  false-positive rate       0.0076 [0.0041, 0.0113]
+  AP                        0.7120 [0.6875, 0.7351]
+  AUROC                     0.8079 [0.7937, 0.8214]
+
+Results table: AUROC [95% interval] (copy into section 1(d))
+------------------------------------------------------------
+A one-class cell holds the metric the checker prints for it, named in parentheses.
+
+Column: LR / fake_news
+  English   0.9932 [0.9888, 0.9970]
+  Spanish   0.8181 [0.7835, 0.8510]
+  French    0.8628 [0.8288, 0.8932]
+
+Column: LR / job_scams
+  English   0.8687 [0.7667, 0.9470]
+  Spanish   0.6474 [0.5066, 0.7862]
+  French    0.7245 [0.5783, 0.8573]
+
+Column: LR / phishing
+  English   0.9977 [0.9954, 0.9995]
+  Spanish   0.9374 [0.9181, 0.9541]
+  French    0.9343 [0.9135, 0.9548]
+
+Column: LR / political_statements
+  English   0.6087 [0.5516, 0.6596]
+  Spanish   0.5308 [0.4765, 0.5847]
+  French    0.5639 [0.5089, 0.6176]
+
+Column: LR / product_reviews
+  English   0.7203 [0.6724, 0.7632]
+  Spanish   0.5195 [0.4707, 0.5668]
+  French    0.5424 [0.4911, 0.5902]
+
+Column: LR / sms
+  English   0.9621 [0.9419, 0.9799]
+  Spanish   0.8993 [0.8653, 0.9351]
+  French    0.9017 [0.8629, 0.9342]
+
+Column: LR / twitter_rumours
+  English   0.8962 [0.8672, 0.9240]
+  Spanish   0.8079 [0.7656, 0.8462]
+  French    0.7890 [0.7443, 0.8284]
+
+Column: LR / pooled
+  English   0.9249 [0.9163, 0.9331]
+  Spanish   0.7804 [0.7648, 0.7970]
+  French    0.8079 [0.7937, 0.8214]
+
+Difference from the baseline value 'English' (copy into section 1(e))
+---------------------------------------------------------------------
+Difference = the value's metric minus the baseline value's metric in the same column.
+Direction of interest: either. Change = the size of the difference.
+The verdict in section 1(e) compares the change with your yes and no differences.
+
+Column: LR / fake_news
+  Spanish   difference -0.1752   change +0.1752 (AUROC)
+  French    difference -0.1305   change +0.1305 (AUROC)
+
+Column: LR / job_scams
+  Spanish   difference -0.2213   change +0.2213 (AUROC)
+  French    difference -0.1441   change +0.1441 (AUROC)
+
+Column: LR / phishing
+  Spanish   difference -0.0604   change +0.0604 (AUROC)
+  French    difference -0.0635   change +0.0635 (AUROC)
+
+Column: LR / political_statements
+  Spanish   difference -0.0779   change +0.0779 (AUROC)
+  French    difference -0.0448   change +0.0448 (AUROC)
+
+Column: LR / product_reviews
+  Spanish   difference -0.2008   change +0.2008 (AUROC)
+  French    difference -0.1780   change +0.1780 (AUROC)
+
+Column: LR / sms
+  Spanish   difference -0.0629   change +0.0629 (AUROC)
+  French    difference -0.0604   change +0.0604 (AUROC)
+
+Column: LR / twitter_rumours
+  Spanish   difference -0.0883   change +0.0883 (AUROC)
+  French    difference -0.1072   change +0.1072 (AUROC)
+
+Column: LR / pooled
+  Spanish   difference -0.1445   change +0.1445 (AUROC)
+  French    difference -0.1171   change +0.1171 (AUROC)
+
+Error sample (section 4)
+------------------------
+Value: Spanish   Column: LR / pooled
+  misclassified rows available   44 false positives, 1048 false negatives
+  sampled                        10 false positives, 10 false negatives
+
+error                    false positive  false negative  total
+category                                                      
+News or event narrative               3               4      7
+Short political claim                 4               3      7
+Personal conversation                 3               1      4
+Credential request                    0               1      1
+Product endorsement                   0               1      1
+
+Warnings
+--------
+- value English, column LR / fake_news: precision, AP, AUROC at or above 0.99. Name the leakage check you ran and its result in section 1(c).
+- value English, column LR / job_scams: precision at or above 0.99. Name the leakage check you ran and its result in section 1(c).
+- value English, column LR / job_scams: fewer than 30 rows in one class (21 positive, 479 negative). The intervals will be wide; keep this in mind for the verdict in section 1(e).
+- value English, column LR / phishing: precision, AP, AUROC at or above 0.99. Name the leakage check you ran and its result in section 1(c).
+- value Spanish, column LR / job_scams: fewer than 30 rows in one class (21 positive, 479 negative). The intervals will be wide; keep this in mind for the verdict in section 1(e).
+- value French, column LR / job_scams: fewer than 30 rows in one class (21 positive, 479 negative). The intervals will be wide; keep this in mind for the verdict in section 1(e).
+- value French, column LR / product_reviews: precision at or above 0.99. Name the leakage check you ran and its result in section 1(c).
+- value French, column LR / twitter_rumours: precision at or above 0.99. Name the leakage check you ran and its result in section 1(c).

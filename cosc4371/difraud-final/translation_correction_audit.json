@@ -1,0 +1,44 @@
+[
+  {
+    "row_id": "difraud:political_statements:train:345",
+    "language": "es",
+    "old": "porque un partido lo atascó.",
+    "new": "porque un partido lo sacó adelante por la fuerza.",
+    "reason": "Preserve forced passage, not blockage, in the original claim. Identified before scoring."
+  },
+  {
+    "row_id": "difraud:political_statements:train:345",
+    "language": "fr",
+    "old": "parce qu'un parti l'a bloqué.",
+    "new": "parce qu'un parti l'a fait passer en force.",
+    "reason": "Preserve the direction of the original claim: jammed it through means forced passage, not blocked passage. Identified in the prespecified review before classifier scoring."
+  },
+  {
+    "row_id": "difraud:product_reviews:train:1700",
+    "language": "fr",
+    "old": "super-épouvantable",
+    "new": "très nette",
+    "reason": "Preserve the positive super-sharp lens opinion rather than reverse it to super-dreadful."
+  },
+  {
+    "row_id": "difraud:product_reviews:train:1700",
+    "language": "fr",
+    "old": "Cette caméra est livrée.",
+    "new": "Cet appareil répond aux attentes.",
+    "reason": "Camera delivers means it meets expectations, not that it is physically delivered."
+  },
+  {
+    "row_id": "difraud:twitter_rumours:train:2405",
+    "language": "fr",
+    "old": "Gunman a tué à l'intérieur des bâtiments du Parlement",
+    "new": "Le tireur a été abattu à l'intérieur des bâtiments du Parlement",
+    "reason": "Preserve shot dead (passive victim), not killed someone (active shooter)."
+  },
+  {
+    "row_id": "difraud:twitter_rumours:train:2405",
+    "language": "fr",
+    "old": "Un soldat du Cdn a tiré plus tôt au War Memorial.",
+    "new": "Un soldat canadien a été touché par balle plus tôt au War Memorial.",
+    "reason": "Preserve soldier was shot, not soldier fired. Correction identified in the prespecified review before scoring."
+  }
+]

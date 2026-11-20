@@ -1,0 +1,12 @@
+data/
+models/
+*.joblib
+*.pkl
+test_texts.jsonl
+translations_*.jsonl
+translation_review_texts.json
+error_sample_texts.json
+error_categories_template.csv
+__pycache__/
+*.png
+*.pdf

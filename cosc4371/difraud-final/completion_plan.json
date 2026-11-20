@@ -1,0 +1,37 @@
+[
+  {
+    "element": "Explain dataset fit; audit, clean, split and run one baseline",
+    "status": "Done",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "element": "Count non-English samples by domain/class; review flags with a second detector and inspect disagreements",
+    "status": "Started",
+    "date": "Nov 21, 2026"
+  },
+  {
+    "element": "Translate the fixed 3,500 English test items into Spanish and French; inspect 20 pairs per language",
+    "status": "Done (AI review)",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "element": "Score Spanish and French with the frozen logistic-regression model",
+    "status": "Done",
+    "date": "Nov 19, 2026"
+  },
+  {
+    "element": "Train XLM-RoBERTa-base on the same training IDs; select its threshold on validation only",
+    "status": "Started (timing only)",
+    "date": "Nov 24, 2026"
+  },
+  {
+    "element": "Compare both classifiers on all three languages, per domain and aggregate mean/weighted performance; all 24 XLM-R cells",
+    "status": "Started (LR done)",
+    "date": "Nov 25, 2026"
+  },
+  {
+    "element": "Interpret language effects, check limitations and rerun the final package; add independent bilingual review",
+    "status": "Started",
+    "date": "Nov 26, 2026"
+  }
+]

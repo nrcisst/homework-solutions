@@ -1,0 +1,11 @@
+{
+  "sample_seed": 42,
+  "pairs": 40,
+  "distinct_source_ids": 20,
+  "status_counts": {
+    "wording_error": 18,
+    "no_major_issue": 16,
+    "meaning_risk": 6
+  },
+  "summary": "Initially, 18 pairs had wording problems and 6 had omissions or meaning risks; 16 showed no obvious major issue. Four messages received logged meaning corrections before scoring. This does not establish label preservation for the full test set."
+}

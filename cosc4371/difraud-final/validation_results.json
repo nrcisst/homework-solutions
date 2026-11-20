@@ -1,0 +1,10 @@
+{
+  "split_byte_identical_to_midsemester": true,
+  "test_ids": 3500,
+  "score_rows": 21000,
+  "matched_checker_changes": 16,
+  "sampled_errors": 20,
+  "same_ids_and_labels_across_languages": true,
+  "pooled_predictions_equal_domain_predictions": true,
+  "status": "passed"
+}
